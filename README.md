@@ -1,3 +1,9 @@
+# Under-5 Mortality Rate Analysis (UNICEF Dataset)
+
+This project analyzes the global Under-5 Mortality Rate (U5MR) data from UNICEF between 2000 and 2023. It includes data processing, filtering for median estimates, visualizations, and exportable insights such as top 10 countries with the highest rates and trend analysis for Niger.
+
+# Code
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -70,3 +76,5 @@ print(f"🌍 Global average U5MR ({latest_year}): {global_avg:.2f}")
 print(f"📌 Top 10 countries with highest U5MR in {latest_year}:\n")
 print(top_10[['Country', 'U5MR']].to_string(index=False))
 print("\n📈 Years included for Niger:", niger_data['Year'].tolist())
+
+#output
