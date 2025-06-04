@@ -78,12 +78,6 @@ print(top_10[['Country', 'U5MR']].to_string(index=False))
 print("\n📈 Years included for Niger:", niger_data['Year'].tolist())
 
 #output
-
-📊 Visualization:
-![U5MR Chart](unicef_u5mr_analysis.png)
-
-📁 Data:
-- [Under-five_Mortality_Rates_2024.csv](Under-five_Mortality_Rates_2024.csv)
   
 📄 Report:
 - [Under5_Mortality_Report.pdf](Under5_Mortality_Report.pdf)
