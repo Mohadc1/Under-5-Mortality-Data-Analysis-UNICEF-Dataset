@@ -79,3 +79,11 @@ print("\n📈 Years included for Niger:", niger_data['Year'].tolist())
 
 #output
 Add output files (image, csv, pdf)
+## Outputs
+
+📊 Visualization:
+![U5MR Chart](unicef_u5mr_analysis.png)
+📁 Data:
+- [Under-five_Mortality_Rates_2024.csv](Under-five_Mortality_Rates_2024.csv)
+📄 Report:
+- [Under5_Mortality_Report.pdf](Under5_Mortality_Report.pdf)
